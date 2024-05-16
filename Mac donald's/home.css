@@ -1,0 +1,92 @@
+header {
+    background-color: white;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+    
+}
+
+.container {
+    max-width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-right: 50px;
+}
+
+nav ul li a {
+    color: #141414; 
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    color: #808080;
+}
+
+.container img {
+    max-width: 5%;
+    height: auto;
+    cursor: pointer;
+}
+
+/* Main page */
+.large-fries,
+.burger {
+    max-width: 60%;
+    height: auto;
+}
+
+.ad1,
+.ad2 {
+    max-width: 90%;
+    margin: 90px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.description .main-text,
+.description .small-text,
+.description2 .main-text,
+.description2 .small-text {
+    margin-top: 20px;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.description .small-text,
+.description2 .small-text {
+    font-size: 11px;
+}
+
+/* Buttons */
+button {
+    margin-top: 50px;
+    background-color: #fcd303;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer; 
+    transition: 0.5s;
+}
+
+button:hover {
+    transform: translateY(-2px);
+}
+
+.etc {
+    margin-top: 50px;
+    width: 100%;
+}
